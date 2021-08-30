@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+    margin: 0% 10%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}	
+.dheker{
+    margin-left: 500px;
+}
+
+ .table{
+  border: 5px solide red;
+ } 
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+ /* Introduction Part*/
+ .introduction{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .col-md-3 img{
+   width: 100%;
+ }
+ .table th,tbody tr{
+   color: red;
+ }
+.card{
+  background-color: yellow;
+}
+
+.m-d{
+  display :flex;
+
+  color:red;
+  font-size: 50px;
+}
+
+.sectionCard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.parag p ,.parag h1{
+  color: #fff;
+}
+
+.parag p{
+  padding: 5%;
+}
+.formulaire {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+#button {
+  margin-top: 3%;
+  width: 100%;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+#messageForName,
+#messageForEmail,
+#messageForPassword,
+#messageForNumber {
+  color: red;
+  font-size: 10px;
+}
+.parag2 h1{
+  color:blueviolet;
+}
+.parag2{
+  color: red;
+}
+
+.block{
+  display:flex;
+  justify-content:space-between;
+}
+
+#parag3 h1{
+  color:red;
+  font-size:30 px ;
+  text-align: center;
+}
+#parag3 p{
+
+color:gray;
+font-family: 'Courier New', Courier, monospace;
+font-size: 10 px;
+padding: 3%;
+text-align: center;
+}
+
+.iset{
+  display: flex;
+  justify-content: space-between;
+}
+.col-md-5 img{
+height: 400px;
+object-fit: fill;
+}
+
+.footer .fa{
+    color: green;
+    background-color: blue;
+}
+ </footer>
+footer {
+  margin-top: 50px;
+}
+
+.footer1 {
+  background-color: #b3b3b3;
+  height: 100px;
+}
+.footer2 {
+  background-color: #666767;
+  height: 70px;
+}
+.footer2 {
+  color: white;
+  height: 50px;
+}
+
+.footer2 ul {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer2 ul li {
+  width: 250px;
+  padding-right: 3%;
+  cursor: pointer;
+}
+.footer2 ul li:hover {
+  color: yellow;
+}
+.footer1 {
+  text-align: center;
+}
+.fa {
+  background-color:;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
